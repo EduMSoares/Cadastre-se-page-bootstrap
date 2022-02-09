@@ -51,11 +51,11 @@ body.corpo {
   border-radius: 4px;
 }
 .identificacao{
-  width: 171px;
+  width: 185px;
   height: 38px;
 }
 .identificacao-select {
-  width: 171px;
+  width: 185px;
   height: 38px;
   border-radius: 4px;
   margin-bottom: 33px !important;
@@ -192,4 +192,29 @@ body.corpo {
   text-align: justify;
   color: #A2A2A2;
   padding-left: 3px;
+}
+
+
+@media (max-width: 320px){
+
+  *{
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .email {
+    width: 230px;
+  }
+  .senha {
+    width: 210px;
+  }
+  .identificacao {
+    width: 190px;
+  }
+  .identificacao-select {
+    width: 190px;
+  }
+  .dica-txt {
+    width: 234px;
+  }
+
 }
