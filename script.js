@@ -7,21 +7,12 @@ let email = document.getElementById('email')
 let senha = String( document.getElementById('idSenha') ).valueOf
 let identific = String( document.getElementById('identific') ).valueOf
 
-  if (email.value == '' || senha.value == '' || identific == ''){
-
-    alert('Por favor, verifique todos os campos')
-
-  }else {
-
     let dados = [
       email,
       senha,
       identific
     ]
-
-  }
-})
-
+    
 // Caso a checkbox esteja marcada, guardar dados em outro array
  let box = document.querySelector('input.check')
  if (box.checked){
